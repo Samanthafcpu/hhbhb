@@ -1,0 +1,14 @@
+function side_area(x)
+    return x * x
+
+function surface(x)
+    return side_area(x) * 6
+
+function volume(x)
+    return x * x * x
+
+print "Enter Edge: "
+edge = USERINPUT
+print "Side Area: " + side_area(edge)
+print "Surface: " + surface(edge)
+print "Volume: " + volume(edge)
